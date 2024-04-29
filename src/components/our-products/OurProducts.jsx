@@ -20,11 +20,7 @@ const OurProducts = () => {
         ))}
       </div>
       <div className="view-all">
-        <NavLink
-          target="_blank"
-          style={{ textDecoration: "none" }}
-          to="/products"
-        >
+        <NavLink style={{ textDecoration: "none" }} to="/products">
           <span className="view-all">View All Products</span>
         </NavLink>
       </div>
